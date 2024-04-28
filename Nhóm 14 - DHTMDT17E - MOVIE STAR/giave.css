@@ -1,0 +1,242 @@
+    /*Phần đầu trang: Header*/
+    div {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+.he {
+    align-content: center;
+    margin-right: 300px;
+    height: 30px;
+}
+
+.menu {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border: solid rgb(190, 186, 186);
+    justify-content: center;
+    background-color: #efdadd;
+    position: fixed;
+
+z-index: 999;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 20%;
+    width: auto;
+    font-weight: bold;
+
+}
+    li {
+        width: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+.main-menu li a {
+
+    text-decoration: none;
+    padding: 5px 10px;
+    color: rgb(75, 74, 74);
+}
+.main-menu li a:hover {
+    color: rgb(236, 140, 140);
+}
+.main-menu li a:active {
+    color: rgb(245, 240, 240);
+}
+
+.logoimg {
+    height: auto;
+    width: 150px;
+}
+
+    .dr {
+        display: none;
+        top: 40px;
+        position: absolute;
+        background-color: #fff4f4;
+        border: 3px solid rgb(233, 233, 233);
+        margin: 5px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .dr li {
+        float: none;
+        list-style: none;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+
+
+    li:hover .dr {
+        display: block;
+
+
+    }
+
+
+    .logo {
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    .onefilm img {
+        height: 350px;
+        width: 230px;
+        border-radius: 20px;
+        border: 2px solid rgb(236, 140, 140);
+    
+    }
+    
+    .onefilm img:hover {
+        /* height: 380px;
+        width: 260px; */
+        cursor: pointer;
+    }
+    
+    .logo {
+        position: relative;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example {
+        0% {
+            left: 0px;
+        }
+
+        25% {
+            left: 25px;
+        }
+
+        50% {
+            left: 0px;
+        
+        }
+
+        75% {
+            left: -25px;
+            
+        }
+
+        100% {
+            left: 0px;
+            
+        }
+    }
+ /*Phần cuối trang: Footer*/
+ .foo {
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+.foo img {
+    width: 100%;
+
+}
+
+.man {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+
+    background-color: black;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0.8;
+}
+
+.foocontent {
+    height: 250px;
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fooleft {
+    height: 100%;
+    width: auto;
+   
+ 
+}
+
+
+.foobet {
+    height: 100%;
+    width: auto;
+    
+}
+
+.foobet h4 {
+    color: rgb(236, 140, 140);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kn {
+    color: #ffeef1;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.fooright {
+    height: 100%;
+    width: auto;
+   
+}
+
+.fooright h4 {
+    color: rgb(236, 140, 140);
+    font-size: 20px;
+    font-weight: bold;
+}
+.contentchild{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+.giave{
+    margin: 0;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.giave img{
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    padding: auto;
+}

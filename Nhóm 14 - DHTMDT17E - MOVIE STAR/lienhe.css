@@ -1,0 +1,332 @@
+
+  /*Phần đầu trang: Header*/
+  div {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+.he {
+    align-content: center;
+    margin-right: 300px;
+    height: 30px;
+    margin: 0px;
+}
+
+.menu {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border: solid rgb(190, 186, 186);
+    justify-content: center;
+    background-color: #efdadd;
+
+
+z-index: 999;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 20%;
+    width: auto;
+    font-weight: bold;
+
+}
+    li {
+        width: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+.main-menu li a {
+
+    text-decoration: none;
+    padding: 5px 10px;
+    color: rgb(75, 74, 74);
+}
+
+.main-menu li a:hover {
+    color: rgb(236, 140, 140);
+}
+
+.logoimg {
+    height: auto;
+    width: 150px;
+}
+
+    .dr {
+        display: none;
+        top: 40px;
+        position: absolute;
+        background-color: #fff4f4;
+        border: 3px solid rgb(233, 233, 233);
+        margin: 5px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .dr li {
+        float: none;
+        list-style: none;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+
+
+    li:hover .dr {
+        display: block;
+
+
+    }
+
+
+    .logo {
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    .onefilm img {
+        height: 350px;
+        width: 230px;
+        border-radius: 20px;
+        border: 2px solid rgb(236, 140, 140);
+    
+    }
+    
+    .onefilm img:hover {
+        /* height: 380px;
+        width: 260px; */
+        cursor: pointer;
+    }
+    
+    .logo {
+        position: relative;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example {
+        0% {
+            left: 0px;
+        }
+
+        25% {
+            left: 25px;
+        }
+
+        50% {
+            left: 0px;
+        
+        }
+
+        75% {
+            left: -25px;
+            
+        }
+
+        100% {
+            left: 0px;
+            
+        }
+    }
+.container{
+    width: 100%;
+    height: fit-content;
+}
+.card {
+    display: flex;
+    justify-items: center;
+    background-color: #f8f7f7;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group {
+    position: relative;
+  }
+  
+  .form .group label {
+    font-size: 14px;
+    color: rgb(99, 102, 102);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+  }
+  
+  .form .group input,
+  .form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  .form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
+    top: 10px;
+    background-color: transparent;
+  }
+  
+  .form .group input:focus,
+  .form .group textarea:focus {
+    border-color: #3366cc;
+  }
+  
+  .form .group input:focus+ label, .form .group textarea:focus +label {
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    color: #3366cc;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .form .group textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .form button {
+    background-color:  #fd92d0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #3366cc;
+  }
+  
+ .map{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    width: 700px;
+    height: 300px; 
+ }
+/*Phần cuối trang: Footer*/
+ /*Phần cuối trang: Footer*/
+ .foo {
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+.foo img {
+    width: 100%;
+
+}
+
+.man {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+
+    background-color: black;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0.8;
+}
+
+.foocontent {
+    height: 250px;
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fooleft {
+    height: 100%;
+    width: auto;
+   
+ 
+}
+
+
+.foobet {
+    height: 100%;
+    width: auto;
+    
+}
+
+.foobet h4 {
+    color: rgb(236, 140, 140);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kn {
+    color: #ffeef1;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.fooright {
+    height: 100%;
+    width: auto;
+   
+}
+
+.fooright h4 {
+    color: rgb(236, 140, 140);
+    font-size: 20px;
+    font-weight: bold;
+}
+.contentchild{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
